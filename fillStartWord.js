@@ -8,10 +8,10 @@ function fillStartWord(startWord, word) {
     return console.log('undefined')
   }
   else if(word.includes(startWord) == true){
-    return console.log(`${word}`)
+    return console.log(word)
   }
   else{
-    return console.log(`${startWord}${word}`)
+    return console.log(startWord+word)
   }
 }
 module.exports = fillStartWord
